@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		11EE570AEC05C6663417E00A /* libPods-DatePickerView.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 6A01ED570005F9DD69DBEB10 /* libPods-DatePickerView.a */; };
 		649283CE230BC5FC00C8C5A8 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 649283CD230BC5FC00C8C5A8 /* AppDelegate.m */; };
 		649283D1230BC5FC00C8C5A8 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 649283D0230BC5FC00C8C5A8 /* ViewController.m */; };
 		649283D4230BC5FC00C8C5A8 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 649283D2230BC5FC00C8C5A8 /* Main.storyboard */; };
@@ -15,6 +16,11 @@
 		649283DC230BC5FE00C8C5A8 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 649283DB230BC5FE00C8C5A8 /* main.m */; };
 		649283E6230BC5FE00C8C5A8 /* DatePickerViewTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 649283E5230BC5FE00C8C5A8 /* DatePickerViewTests.m */; };
 		649283F1230BC5FE00C8C5A8 /* DatePickerViewUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 649283F0230BC5FE00C8C5A8 /* DatePickerViewUITests.m */; };
+		64928407230BC61700C8C5A8 /* ZDBPickerCellView.m in Sources */ = {isa = PBXBuildFile; fileRef = 649283FF230BC61700C8C5A8 /* ZDBPickerCellView.m */; };
+		64928408230BC61700C8C5A8 /* ZDBPickerManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 64928403230BC61700C8C5A8 /* ZDBPickerManager.m */; };
+		64928409230BC61700C8C5A8 /* ZDBPickerView.m in Sources */ = {isa = PBXBuildFile; fileRef = 64928405230BC61700C8C5A8 /* ZDBPickerView.m */; };
+		6492840A230BC61700C8C5A8 /* ZDBPickerColumnView.m in Sources */ = {isa = PBXBuildFile; fileRef = 64928406230BC61700C8C5A8 /* ZDBPickerColumnView.m */; };
+		6492840D230BC9F800C8C5A8 /* UIColor+Palette.m in Sources */ = {isa = PBXBuildFile; fileRef = 6492840B230BC9F800C8C5A8 /* UIColor+Palette.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,6 +41,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		3F90F3EE7F9CE473EB45272C /* Pods-DatePickerView.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DatePickerView.debug.xcconfig"; path = "Target Support Files/Pods-DatePickerView/Pods-DatePickerView.debug.xcconfig"; sourceTree = "<group>"; };
 		649283C9230BC5FC00C8C5A8 /* DatePickerView.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DatePickerView.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		649283CC230BC5FC00C8C5A8 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		649283CD230BC5FC00C8C5A8 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -51,6 +58,18 @@
 		649283EC230BC5FE00C8C5A8 /* DatePickerViewUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DatePickerViewUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		649283F0230BC5FE00C8C5A8 /* DatePickerViewUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DatePickerViewUITests.m; sourceTree = "<group>"; };
 		649283F2230BC5FE00C8C5A8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		649283FF230BC61700C8C5A8 /* ZDBPickerCellView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZDBPickerCellView.m; sourceTree = "<group>"; };
+		64928400230BC61700C8C5A8 /* ZDBPickerManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZDBPickerManager.h; sourceTree = "<group>"; };
+		64928401230BC61700C8C5A8 /* ZDBPickerColumnView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZDBPickerColumnView.h; sourceTree = "<group>"; };
+		64928402230BC61700C8C5A8 /* ZDBPickerView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZDBPickerView.h; sourceTree = "<group>"; };
+		64928403230BC61700C8C5A8 /* ZDBPickerManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZDBPickerManager.m; sourceTree = "<group>"; };
+		64928404230BC61700C8C5A8 /* ZDBPickerCellView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZDBPickerCellView.h; sourceTree = "<group>"; };
+		64928405230BC61700C8C5A8 /* ZDBPickerView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZDBPickerView.m; sourceTree = "<group>"; };
+		64928406230BC61700C8C5A8 /* ZDBPickerColumnView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZDBPickerColumnView.m; sourceTree = "<group>"; };
+		6492840B230BC9F800C8C5A8 /* UIColor+Palette.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIColor+Palette.m"; sourceTree = "<group>"; };
+		6492840C230BC9F800C8C5A8 /* UIColor+Palette.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIColor+Palette.h"; sourceTree = "<group>"; };
+		69E492A30238A4015CD7A1D8 /* Pods-DatePickerView.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DatePickerView.release.xcconfig"; path = "Target Support Files/Pods-DatePickerView/Pods-DatePickerView.release.xcconfig"; sourceTree = "<group>"; };
+		6A01ED570005F9DD69DBEB10 /* libPods-DatePickerView.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-DatePickerView.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +77,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				11EE570AEC05C6663417E00A /* libPods-DatePickerView.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -78,6 +98,23 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		201E2FA3CB19700B071C2AD5 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				6A01ED570005F9DD69DBEB10 /* libPods-DatePickerView.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		3B87A044711909ECE760BEA4 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				3F90F3EE7F9CE473EB45272C /* Pods-DatePickerView.debug.xcconfig */,
+				69E492A30238A4015CD7A1D8 /* Pods-DatePickerView.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
 		649283C0230BC5FC00C8C5A8 = {
 			isa = PBXGroup;
 			children = (
@@ -85,6 +122,8 @@
 				649283E4230BC5FE00C8C5A8 /* DatePickerViewTests */,
 				649283EF230BC5FE00C8C5A8 /* DatePickerViewUITests */,
 				649283CA230BC5FC00C8C5A8 /* Products */,
+				3B87A044711909ECE760BEA4 /* Pods */,
+				201E2FA3CB19700B071C2AD5 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -101,6 +140,9 @@
 		649283CB230BC5FC00C8C5A8 /* DatePickerView */ = {
 			isa = PBXGroup;
 			children = (
+				6492840C230BC9F800C8C5A8 /* UIColor+Palette.h */,
+				6492840B230BC9F800C8C5A8 /* UIColor+Palette.m */,
+				649283FE230BC61700C8C5A8 /* ZDBDatePicker */,
 				649283CC230BC5FC00C8C5A8 /* AppDelegate.h */,
 				649283CD230BC5FC00C8C5A8 /* AppDelegate.m */,
 				649283CF230BC5FC00C8C5A8 /* ViewController.h */,
@@ -132,6 +174,21 @@
 			path = DatePickerViewUITests;
 			sourceTree = "<group>";
 		};
+		649283FE230BC61700C8C5A8 /* ZDBDatePicker */ = {
+			isa = PBXGroup;
+			children = (
+				64928400230BC61700C8C5A8 /* ZDBPickerManager.h */,
+				64928403230BC61700C8C5A8 /* ZDBPickerManager.m */,
+				64928402230BC61700C8C5A8 /* ZDBPickerView.h */,
+				64928405230BC61700C8C5A8 /* ZDBPickerView.m */,
+				64928401230BC61700C8C5A8 /* ZDBPickerColumnView.h */,
+				64928406230BC61700C8C5A8 /* ZDBPickerColumnView.m */,
+				64928404230BC61700C8C5A8 /* ZDBPickerCellView.h */,
+				649283FF230BC61700C8C5A8 /* ZDBPickerCellView.m */,
+			);
+			path = ZDBDatePicker;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -139,6 +196,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 649283F5230BC5FE00C8C5A8 /* Build configuration list for PBXNativeTarget "DatePickerView" */;
 			buildPhases = (
+				750740AC0E891F3A83150559 /* [CP] Check Pods Manifest.lock */,
 				649283C5230BC5FC00C8C5A8 /* Sources */,
 				649283C6230BC5FC00C8C5A8 /* Frameworks */,
 				649283C7230BC5FC00C8C5A8 /* Resources */,
@@ -257,14 +315,44 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		750740AC0E891F3A83150559 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-DatePickerView-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		649283C5230BC5FC00C8C5A8 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				6492840A230BC61700C8C5A8 /* ZDBPickerColumnView.m in Sources */,
 				649283D1230BC5FC00C8C5A8 /* ViewController.m in Sources */,
+				64928409230BC61700C8C5A8 /* ZDBPickerView.m in Sources */,
+				6492840D230BC9F800C8C5A8 /* UIColor+Palette.m in Sources */,
 				649283DC230BC5FE00C8C5A8 /* main.m in Sources */,
 				649283CE230BC5FC00C8C5A8 /* AppDelegate.m in Sources */,
+				64928407230BC61700C8C5A8 /* ZDBPickerCellView.m in Sources */,
+				64928408230BC61700C8C5A8 /* ZDBPickerManager.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -433,11 +521,13 @@
 		};
 		649283F6230BC5FE00C8C5A8 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3F90F3EE7F9CE473EB45272C /* Pods-DatePickerView.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = HJFP99G4PR;
 				INFOPLIST_FILE = DatePickerView/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -450,11 +540,13 @@
 		};
 		649283F7230BC5FE00C8C5A8 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 69E492A30238A4015CD7A1D8 /* Pods-DatePickerView.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = HJFP99G4PR;
 				INFOPLIST_FILE = DatePickerView/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
