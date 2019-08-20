@@ -12,7 +12,6 @@
 
 @interface ZDBPickerColumnView ()<UITableViewDelegate, UITableViewDataSource>
 {
-    CGFloat _beginY;
     CGFloat _endY;
     NSArray *_columns;
 }
@@ -91,15 +90,12 @@
     return [UIView new];
 }
 #pragma mark - UIScrollViewDelegate
-- (void)scrollViewWillBeginDragging:(UIScrollView *)scrollView {
-    _beginY = scrollView.contentOffset.y;
-}
 - (void)scrollViewDidEndDragging:(UIScrollView *)scrollView willDecelerate:(BOOL)decelerate {
     _endY = scrollView.contentOffset.y;
     if (!decelerate) {
 
         NSInteger itemWidth = 44;
-        if ((NSInteger)scrollView.contentOffset.y % itemWidth != 0) {
+        if ((NSInteger)_endY % itemWidth != 0) {
 
             NSInteger currentIndex;
 
@@ -116,16 +112,15 @@
 - (void)scrollViewDidEndDecelerating:(UIScrollView *)scrollView {
     _endY = scrollView.contentOffset.y;
     NSInteger itemWidth = 44;
-    if (scrollView.contentOffset.y <= 0) {
+    if (_endY <= 0) {
         [self notifyPickerViewScrollIndex:-1];
         return;
     }
-
-    if (scrollView.contentOffset.y >= (_columns.count-1)*itemWidth) {
+    if (_endY >= (_columns.count-1)*itemWidth) {
         [self notifyPickerViewScrollIndex:_columns.count-1];
         return;
     }
-    if ((NSInteger)scrollView.contentOffset.y % itemWidth != 0 || (NSInteger)scrollView.contentOffset.y < itemWidth*_columns.count) {
+    if ((NSInteger)_endY % itemWidth != 0 || (NSInteger)_endY < itemWidth*_columns.count) {
 
         NSInteger currentIndex;
 
